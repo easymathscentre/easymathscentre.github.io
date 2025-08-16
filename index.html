@@ -1,84 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Easy Maths Centre (EMC) - Mathematics Simplified</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Maths Centre</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-white text-gray-900">
-  <!-- Navbar -->
-  <header class="bg-green-600 text-white shadow-lg sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 flex justify-between items-center py-4">
-      <h1 class="text-2xl font-bold">Easy Maths Centre (EMC)</h1>
-      <nav class="hidden md:flex gap-6 text-lg">
-        <a href="#about" class="hover:text-yellow-300">About</a>
-        <a href="#pricing" class="hover:text-yellow-300">Pricing</a>
-        <a href="#contact" class="hover:text-yellow-300">Contact</a>
-      </nav>
-      <a href="https://wa.me/+27682709230" target="_blank"
-         class="bg-yellow-400 text-black px-4 py-2 rounded-xl font-semibold hover:bg-yellow-300">
-        WhatsApp Us
-      </a>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="bg-yellow-300 text-center py-16 px-4">
-    <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Mathematics Simplified</h2>
-    <p class="text-lg md:text-xl max-w-2xl mx-auto mb-6">
-      At Easy Maths Centre (EMC), we help learners from all grades master maths with ease. 
-      Based in Heathfield, Cape Town.
-    </p>
-    <a href="https://wa.me/+27682709230" target="_blank"
-       class="bg-green-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-green-700">
-      Book via WhatsApp
-    </a>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="max-w-6xl mx-auto py-16 px-6">
-    <h3 class="text-3xl font-bold mb-6 text-center">About Us</h3>
-    <p class="text-lg leading-relaxed text-center max-w-3xl mx-auto">
-      Easy Maths Centre (EMC) is dedicated to simplifying mathematics for learners of all grades. 
-      Our experienced tutors make maths clear, engaging, and confidence-boosting. 
-      Whether you’re preparing for exams or need ongoing support, we’ll guide you every step of the way.
-    </p>
-  </section>
-
-  <!-- Pricing -->
-  <section id="pricing" class="bg-gray-100 py-16 px-6">
-    <h3 class="text-3xl font-bold mb-6 text-center">Affordable Pricing</h3>
-    <div class="max-w-md mx-auto bg-white shadow-xl rounded-2xl p-8 text-center">
-      <h4 class="text-2xl font-semibold mb-4">All Grades</h4>
-      <p class="text-5xl font-extrabold text-green-600 mb-2">R800</p>
-      <p class="text-gray-600 mb-6">per month</p>
-      <a href="https://wa.me/+27682709230" target="_blank"
-         class="bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-300">
-        Enrol via WhatsApp
-      </a>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="max-w-6xl mx-auto py-16 px-6 text-center">
-    <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
-    <p class="text-lg mb-4">📍 Based in Heathfield, Cape Town</p>
-    <p class="text-lg mb-2">📧 Email: <a href="mailto:easymathscentre@gmail.com" class="text-green-600 hover:underline">easymathscentre@gmail.com</a></p>
-    <p class="text-lg mb-6">💬 WhatsApp: <a href="https://wa.me/+27682709230" target="_blank" class="text-green-600 hover:underline">+27 68 270 9230</a></p>
-    <a href="https://wa.me/+27682709230" target="_blank"
-       class="bg-green-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-green-700">
-      Message Us Now
-    </a>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-green-600 text-white text-center py-6 mt-10">
-    <p>&copy; <span id="year"></span> Easy Maths Centre (EMC). All rights reserved.</p>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+<body>
+    <header>
+        <h1>Welcome to Easy Maths Centre</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Mission</h2>
+            <p>To make maths easy and accessible for everyone.</p>
+        </section>
+        <section>
+            <h2>Latest News</h2>
+            <p>Check out our latest resources and workshops!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Easy Maths Centre</p>
+    </footer>
 </body>
 </html>
